@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Ecomerce/static/css/main.0bbb4c30.css",
+    "main.js": "/Ecomerce/static/js/main.49432c76.js",
+    "static/media/homeImage.jpg": "/Ecomerce/static/media/homeImage.72b07a4aac3f7874c1a2.jpg",
+    "static/media/calcetin23.webp": "/Ecomerce/static/media/calcetin23.95cb7b88260ce66d0cbe.webp",
+    "static/media/zapato3.2.webp": "/Ecomerce/static/media/zapato3.2.520d66eeb2ffc6d3a40d.webp",
+    "static/media/calcetin31.webp": "/Ecomerce/static/media/calcetin31.ccefe7c8038d38527ddc.webp",
+    "static/media/calcetin21.webp": "/Ecomerce/static/media/calcetin21.0757fae61faaed4c27f7.webp",
+    "static/media/zapato2.2.webp": "/Ecomerce/static/media/zapato2.2.b2b83f219b2e8953c1cd.webp",
+    "static/media/zapato2.1.webp": "/Ecomerce/static/media/zapato2.1.4f03a77be5a945c3548d.webp",
+    "static/media/calcetin32.webp": "/Ecomerce/static/media/calcetin32.cfee48a706372014e8ef.webp",
+    "static/media/zapato3.1.webp": "/Ecomerce/static/media/zapato3.1.516f34565bd9f2014b5f.webp",
+    "static/media/zapato1.1.webp": "/Ecomerce/static/media/zapato1.1.86c385ead64f94ecc329.webp",
+    "static/media/zapato4.2.webp": "/Ecomerce/static/media/zapato4.2.81128488e980115281c4.webp",
+    "static/media/zapato2.3.webp": "/Ecomerce/static/media/zapato2.3.38887dee15296540429a.webp",
+    "static/media/zapato3.3.webp": "/Ecomerce/static/media/zapato3.3.2c8abcd62eb8bb20d6d9.webp",
+    "static/media/zapato1.2.webp": "/Ecomerce/static/media/zapato1.2.7e82ce8815611dfb994c.webp",
+    "static/media/zapato4.3.webp": "/Ecomerce/static/media/zapato4.3.e2c6cd22afd5e4cd7f79.webp",
+    "static/media/zapato4.1.webp": "/Ecomerce/static/media/zapato4.1.8fa09c8d3682ae74d8aa.webp",
+    "static/media/calcetin22.webp": "/Ecomerce/static/media/calcetin22.6e3c2605fe7fc62ef0fd.webp",
+    "static/media/zapato1.3.webp": "/Ecomerce/static/media/zapato1.3.e4521be2df7546132e1e.webp",
+    "static/media/calcetin11.webp": "/Ecomerce/static/media/calcetin11.ff3a4be5e5b5b29d207f.webp",
+    "static/media/calcetin13.webp": "/Ecomerce/static/media/calcetin13.df908e791b29ca0af53b.webp",
+    "static/media/calcetin12.webp": "/Ecomerce/static/media/calcetin12.5e36ed137eb670298cd1.webp",
+    "index.html": "/Ecomerce/index.html",
+    "main.0bbb4c30.css.map": "/Ecomerce/static/css/main.0bbb4c30.css.map",
+    "main.49432c76.js.map": "/Ecomerce/static/js/main.49432c76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bbb4c30.css",
+    "static/js/main.49432c76.js"
+  ]
+}
