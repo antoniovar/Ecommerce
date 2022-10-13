@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ecommerce/static/css/main.10f98ca7.css",
-    "main.js": "/Ecommerce/static/js/main.f7af81d0.js",
+    "main.js": "/Ecommerce/static/js/main.d2c987cf.js",
     "static/media/homeImage.jpg": "/Ecommerce/static/media/homeImage.72b07a4aac3f7874c1a2.jpg",
     "static/media/calcetin23.webp": "/Ecommerce/static/media/calcetin23.95cb7b88260ce66d0cbe.webp",
     "static/media/zapato3.2.webp": "/Ecommerce/static/media/zapato3.2.520d66eeb2ffc6d3a40d.webp",
@@ -25,10 +25,10 @@
     "static/media/calcetin12.webp": "/Ecommerce/static/media/calcetin12.5e36ed137eb670298cd1.webp",
     "index.html": "/Ecommerce/index.html",
     "main.10f98ca7.css.map": "/Ecommerce/static/css/main.10f98ca7.css.map",
-    "main.f7af81d0.js.map": "/Ecommerce/static/js/main.f7af81d0.js.map"
+    "main.d2c987cf.js.map": "/Ecommerce/static/js/main.d2c987cf.js.map"
   },
   "entrypoints": [
     "static/css/main.10f98ca7.css",
-    "static/js/main.f7af81d0.js"
+    "static/js/main.d2c987cf.js"
   ]
 }
