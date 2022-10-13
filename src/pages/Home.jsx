@@ -9,8 +9,8 @@ function Home(){
         <h1>Welcome to <i>All4feet</i> shop</h1>
       </div>
       <div className="categories">
-        <Link className="link" to='/menShoes'>Shop for Men</Link>
-        <Link className="link" to='/womenShoes'>Shop for Women</Link>
+        <Link className="link" to='/Ecommerce/menShoes'>Shop for Men</Link>
+        <Link className="link" to='/Ecommerce/womenShoes'>Shop for Women</Link>
       </div>
      
     </div>

@@ -6,12 +6,12 @@ function NavBar(){
     <div className="navbar">
       <ul className='list'>
         <li className='logo'>All4Feet</li>
-        <Link className='option' to='/'><li>Home</li></Link>
-        <Link className='option' to='/menShoes'><li>Men Shoes</li></Link>
-        <Link className='option' to='/womenShoes'><li className='option'>Women Shoes</li></Link>
-        <Link className='option' to='/socks'><li>Socks</li></Link>
+        <Link className='option' to='/Ecommerce'><li>Home</li></Link>
+        <Link className='option' to='/Ecommerce/menShoes'><li>Men Shoes</li></Link>
+        <Link className='option' to='/Ecommerce/womenShoes'><li className='option'>Women Shoes</li></Link>
+        <Link className='option' to='/Ecommerce/socks'><li>Socks</li></Link>
       </ul>
-      <Link className='option' to='/cart'><span className='option carro'><i className="fa-solid fa-cart-shopping" /></span></Link>
+      <Link className='option' to='/Ecommerce/cart'><span className='option carro'><i className="fa-solid fa-cart-shopping" /></span></Link>
     </div>
   );
 }
