@@ -1,0 +1,43 @@
+.home-container{
+  background-image: url('../imgs/homeImage.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 5rem;
+}
+.text{
+  font-size: 1.5rem;
+  font-weight: 9999;
+  color: rgb(71, 94, 124);
+  padding: 0 2.5rem;
+  border-radius: 50px;
+  -webkit-text-stroke: 0.6px white;
+}
+.categories{
+  display: flex;
+  gap: 3rem;
+}
+
+.link{
+  text-decoration: none;
+  border: 0.2rem solid white;
+  padding: 0.7rem;
+  font-weight: 700;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1));
+  color:rgb(71, 94, 124);
+  border-radius: 25px;
+}
+.link:hover{
+  color: white;
+  background: linear-gradient(to right, rgba(71, 94, 124, 0.541), rgb(71, 94, 124));
+  background-color:rgb(71, 94, 124);
+  border: 0.2rem solid white;
+  transition-duration: 1s;
+  text-decoration: none;
+}
