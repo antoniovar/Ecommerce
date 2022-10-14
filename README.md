@@ -2,4 +2,4 @@
 
 Simple react multipage shop.
 
-https://antoniovar.github.io/Ecommerce/
+➡️ You can see the finished project here: https://antoniovar.github.io/Ecommerce/
