@@ -23,6 +23,22 @@
   padding-bottom: 0.5rem;
   border-bottom: 0.3rem solid rgb(71, 94, 124);
 }
-.titl{
+.text{
   text-align: center;
+}
+
+@media screen and (max-width: 890px) {
+  .cartList{
+    width: 35rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cartList{
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .cartList{
+    width: 15rem;
+  }
 }

@@ -67,3 +67,39 @@
 .disable:hover{
   cursor: not-allowed ;
 }
+.product4page-left2{
+  display:none;
+}
+.product4page-left3{
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .product4page-container{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .product4page-left1{
+    display: none;
+  }
+  .product4page-left2{
+    display: flex;
+  }
+  .product4page-left3{
+    display: none;
+  }
+}
+@media screen and (max-width: 470px) {
+  .product4page-left1{
+    display: none;
+  }
+  .product4page-left2{
+    display: none;
+  }
+  .product4page-left3{
+    display: flex;
+  }
+  .buy-buttons{
+    justify-content: center;
+  }
+}

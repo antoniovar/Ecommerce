@@ -33,11 +33,29 @@ function Product4Page({im, name, description, price}){
 
   return(
     <div className="product4page-container">
-      <div className="product4page-left">
+      {/*Different product-left to change the sizes*/}
+      <div className="product4page-left1">
         <SimpleImageSlider
-          className='slider'
           width={504}
           height={504}
+          images={im}
+          showBullets={false}
+          showNavs={true}
+        />
+      </div>
+      <div className="product4page-left2">
+        <SimpleImageSlider
+          width={404}
+          height={404}
+          images={im}
+          showBullets={false}
+          showNavs={true}
+        />
+      </div>
+      <div className="product4page-left3">
+        <SimpleImageSlider
+          width={304}
+          height={304}
           images={im}
           showBullets={false}
           showNavs={true}

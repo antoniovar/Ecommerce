@@ -40,21 +40,13 @@ export const CartProvider = ({children}) => {
       setData([...data, {...item, quantity}]);
     }
   }
-  const removeItemCart = (name) => {
-    if(data.length>1){
-      const cartWithoutItem = data.filter(item => item.name!==name);
-      setData(cartWithoutItem);
-    }else{
-      localStorage.removeItem("items");
-      window.location.reload()
-    }
-  }
-  
+    
   return(
     <CartContext.Provider value={{
       isInCart,
       addItemCart,
-      removeItemCart
+      data,
+      setData
     }}>
       {children}
     </CartContext.Provider>

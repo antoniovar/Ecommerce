@@ -1,9 +1,9 @@
 import CartItem from "./CartItem";
 import '../styles/CartItemList.css'
+import { useCartContext } from "../context/CartContext";
 
 function CartItemList(){
-  const dataJson = localStorage.getItem("items");
-  const cartItems = JSON.parse(dataJson)
+  const {data, setData} = useCartContext()
   return(
     <div className="container">
       <div className="cartList">
@@ -12,9 +12,24 @@ function CartItemList(){
           <span>Quantity</span>
           <span>Price</span>
         </div>
-        {cartItems!==null&&cartItems.length!==0 ?cartItems.map(item => <CartItem key={item.name} name={item.name} price={item.price} quantity={item.quantity} />)
-        : <h1 className="titl">Your cart is empty</h1>}
+        {data!==null&&data.length!==0 ?data.map(item => 
+          <CartItem 
+            key={item.name} 
+            name={item.name} 
+            price={item.price} 
+            quantity={item.quantity} 
+            remove={() => {
+              if(data.length>1){
+                const cartWithoutItem = data.filter(it => it.name!==item.name);
+                setData(cartWithoutItem);
+              }else{
+                setData([]);
+                localStorage.removeItem("items");
+              }
+            }} />)
+        : <h1 className="text">Your cart is empty</h1>}
       </div>  
+      
     </div>
      
   );

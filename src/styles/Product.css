@@ -20,3 +20,16 @@
   height: 25rem;
   width: 22rem;
 }
+
+@media screen and (max-width: 500px){
+  .product-container{
+    align-items: center;
+  }
+  .product-image{
+    height: 20rem;
+    width: 18rem;
+  }
+  .name-price{
+    width: 15rem;
+  }
+}
